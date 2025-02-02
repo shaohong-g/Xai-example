@@ -14,6 +14,7 @@ conda install conda-forge::matplotlib
 conda install anaconda::seaborn
 conda install anaconda::graphviz conda-forge::python-graphviz conda-forge::pydot
 conda install -c conda-forge pydotplus
+conda install -c conda-forge shap
 ```
 
 
@@ -47,6 +48,8 @@ Models
     - https://medium.com/towards-data-science/encoding-categorical-data-explained-a-visual-guide-with-code-example-for-beginners-b169ac4193ae
     - https://medium.com/aiskunks/categorical-data-encoding-techniques-d6296697a40f
 
+- https://stackoverflow.com/questions/65110798/feature-importance-in-a-binary-classification-and-extracting-shap-values-for-one
+https://medium.com/@kumar9059300448/understanding-interpretable-machine-learning-exploring-shap-lime-pdps-and-ices-9239b497f065
 
 Dataset
     - https://www.kaggle.com/datasets/asinow/laptop-price-dataset
