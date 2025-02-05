@@ -1,7 +1,7 @@
 # Xai-example (WIP)
 Repository on Explainable Ai 
 
-![alt text](tradeoff.png)
+![alt text](./static/tradeoff.png)
 
 ## Set-up
 - Conda Environment
@@ -15,6 +15,8 @@ conda install anaconda::seaborn
 conda install anaconda::graphviz conda-forge::python-graphviz conda-forge::pydot
 conda install -c conda-forge pydotplus
 conda install -c conda-forge shap
+conda install conda-forge::xgboost
+pip3 install torch torchvision torchaudio
 ```
 
 
@@ -36,6 +38,14 @@ Techniques
     - PDP and ICE
     - integrated gradient
 
+type
+    - clustering
+    - binary classification
+    - multi-class classification
+    - multi-label classification
+    - Neutral network
+    - deep neutral network (BERT)
+
 Models
     - logistic regression / linear regression
     - decision tree / random forest
@@ -50,6 +60,10 @@ Models
 
 - https://stackoverflow.com/questions/65110798/feature-importance-in-a-binary-classification-and-extracting-shap-values-for-one
 https://medium.com/@kumar9059300448/understanding-interpretable-machine-learning-exploring-shap-lime-pdps-and-ices-9239b497f065
+
+https://www.youtube.com/watch?v=UJeu29wq7d0&list=PLqDyyww9y-1SJgMw92x90qPYpHgahDLIK&index=3
+https://medium.com/towards-data-science/introduction-to-shap-with-python-d27edc23c454
+https://medium.com/towards-data-science/shap-for-categorical-features-7c63e6a554ea
 
 Dataset
     - https://www.kaggle.com/datasets/asinow/laptop-price-dataset

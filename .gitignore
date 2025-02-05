@@ -172,4 +172,5 @@ cython_debug/
 
 
 # data
-data
+README copy.md
+models copy.ipynb
