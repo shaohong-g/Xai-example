@@ -65,6 +65,9 @@ https://www.youtube.com/watch?v=UJeu29wq7d0&list=PLqDyyww9y-1SJgMw92x90qPYpHgahD
 https://medium.com/towards-data-science/introduction-to-shap-with-python-d27edc23c454
 https://medium.com/towards-data-science/shap-for-categorical-features-7c63e6a554ea
 
+https://github.com/shap/shap/blob/master/notebooks/tabular_examples/tree_based_models/Explaining%20a%20simple%20OR%20function.ipynb
+https://medium.com/swlh/push-the-limits-of-explainability-an-ultimate-guide-to-shap-library-a110af566a02
+
 Dataset
     - https://www.kaggle.com/datasets/asinow/laptop-price-dataset
     - https://www.kaggle.com/datasets/murtadhanajim/vocal-gender-features
@@ -72,3 +75,15 @@ Dataset
     - https://www.kaggle.com/datasets/ruchikakumbhar/obesity-prediction
     - https://www.kaggle.com/datasets/ankushpanday1/alzheimers-prediction-dataset-global
     - https://www.kaggle.com/datasets/taweilo/wine-quality-dataset-balanced-classification
+
+
+Features
+- Background: https://github.com/shap/shap/blob/master/notebooks/tabular_examples/tree_based_models/Explaining%20a%20simple%20OR%20function.ipynb
+- https://arxiv.org/pdf/2006.16234
+- https://stackoverflow.com/questions/70510341/shap-values-with-pytorch-kernelexplainer-vs-deepexplainer
+
+Limitations:
+https://medium.com/towards-data-science/kernelshap-can-be-misleading-with-correlated-predictors-9f64108f7cfb
+https://github.com/shap/shap/issues/318#issuecomment-437429986
+https://medium.com/data-reply-it-datatech/explainable-ai-shap-values-1c7128ef06c2
+https://github.com/shap/shap/discussions/1538
